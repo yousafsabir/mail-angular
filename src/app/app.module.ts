@@ -6,23 +6,14 @@ import { AppComponent } from './app.component';
 import { MailComponent } from './pages/mail/mail.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MainComponent } from './components/main/main.component';
-import { SidebarContactComponent } from './components/sidebar-contact/sidebar-contact.component';
-import { SidebarCalanderComponent } from './components/sidebar-calander/sidebar-calander.component';
+import { SidebarCtaComponent } from './components/sidebar-cta/sidebar-cta.component';
+import { MainAddComponent } from './components/main-add/main-add.component';
+import { MainMailComponent } from './components/main-mail/main-mail.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MailComponent,
-    SidebarComponent,
-    MainComponent,
-    SidebarContactComponent,
-    SidebarCalanderComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, MailComponent, SidebarComponent, MainComponent, SidebarCtaComponent, MainAddComponent, MainMailComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

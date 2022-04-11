@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SidebarContactComponent } from './sidebar-contact.component';
+import { MainMailComponent } from './main-mail.component';
 
-describe('SidebarContactComponent', () => {
-  let component: SidebarContactComponent;
-  let fixture: ComponentFixture<SidebarContactComponent>;
+describe('MainMailComponent', () => {
+  let component: MainMailComponent;
+  let fixture: ComponentFixture<MainMailComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SidebarContactComponent ]
+      declarations: [ MainMailComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SidebarContactComponent);
+    fixture = TestBed.createComponent(MainMailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
