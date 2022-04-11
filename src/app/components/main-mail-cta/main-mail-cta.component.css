@@ -1,11 +1,9 @@
-.add {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 0.25rem;
-}
 i {
   font-size: 2rem;
+  margin-inline: 0.5rem;
+}
+i:hover {
+  cursor: pointer;
 }
 i:active {
   transform: scale(0.85);

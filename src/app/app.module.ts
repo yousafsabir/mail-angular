@@ -9,9 +9,10 @@ import { MainComponent } from './components/main/main.component';
 import { SidebarCtaComponent } from './components/sidebar-cta/sidebar-cta.component';
 import { MainAddComponent } from './components/main-add/main-add.component';
 import { MainMailComponent } from './components/main-mail/main-mail.component';
+import { MainMailCtaComponent } from './components/main-mail-cta/main-mail-cta.component';
 
 @NgModule({
-  declarations: [AppComponent, MailComponent, SidebarComponent, MainComponent, SidebarCtaComponent, MainAddComponent, MainMailComponent],
+  declarations: [AppComponent, MailComponent, SidebarComponent, MainComponent, SidebarCtaComponent, MainAddComponent, MainMailComponent, MainMailCtaComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
